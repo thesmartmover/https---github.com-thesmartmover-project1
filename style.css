@@ -1,4 +1,4 @@
-* {
+ * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -67,9 +67,17 @@
         }
         
         .input-group input:focus {
-            border-color: #2575fc;
             outline: none;
-            box-shadow: 0 0 0 3px rgba(37, 117, 252, 0.1);
+        }
+        
+        .input-group input.valid {
+            border-color: #4CAF50;
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+        }
+        
+        .input-group input.invalid {
+            border-color: #f44336;
+            box-shadow: 0 0 0 3px rgba(244, 67, 54, 0.1);
         }
         
         .input-group .requirements {
