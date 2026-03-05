@@ -14,14 +14,16 @@
         </div>
         
         <form id="loginForm">
-            <div class="input-group">
+            <div class="input-group" id="usernameGroup">
                 <label for="username">Логин</label>
                 <input type="text" id="username" name="username" placeholder="Введите логин" autocomplete="username">
                 <div class="validation-icon"></div>
-                <div class="requirements">Логин должен содержать только латинские буквы (a-z) и цифры (0-9). Пробелы удаляются автоматически.</div>
+                <div class="requirements">
+                    Логин должен содержать только латинские буквы (a-z) и цифры (0-9). Пробелы удаляются автоматически.
+                </div>
             </div>
             
-            <div class="input-group">
+            <div class="input-group" id="passwordGroup">
                 <label for="password">Пароль</label>
                 <input type="password" id="password" name="password" placeholder="Введите пароль" autocomplete="current-password">
                 <div class="validation-icon"></div>
